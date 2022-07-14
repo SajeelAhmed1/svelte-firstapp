@@ -1,19 +1,20 @@
 <script>
+    import Title from "$lib/title.svelte";
     // let title='My Site'
     // const update = () =>{
     //     title = " My Other Site"
     // }
-    import Title from '$lib/title.svelte'
+    
 </script>
- <Title/>
-<div class="title">
+ <!-- <Title /> -->
+<!-- <div class="title">
     <img src="/capture" alt="ddd">
     <h1>Hello there</h1>
- </div>
+ </div> -->
 
 <div class="index">
-    <h2>{title}</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint tempore quas, dolorum ex explicabo error totam voluptates aut at sequi quibusdam numquam, et fuga cupiditate, repellendus alias officiis qui! Consectetur.</p>
+    <h2>ddd</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint tempore quas, dolorum ex explicabo error totam voluptates aut at sequi quibusdam numquam, et fuga cupiditate, repellendus alias officiis qui! Consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint tempore quas, dolorum ex explicabo error totam voluptates aut at sequi quibusdam numquam, et fuga cupiditate, repellendus alias officiis qui! Consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint tempore quas, dolorum ex explicabo error totam voluptates aut at sequi quibusdam numquam, et fuga cupiditate, repellendus alias officiis qui! Consectetur.</p>
 
     <!-- <button on:click={update}>
         Change Stuff

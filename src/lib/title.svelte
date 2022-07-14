@@ -1,11 +1,13 @@
 <script>
-    let title ="Holaa World"
+    export  let title ="Holaa World"
 </script>
+
 <div class="title">
-    <img src="/capture" alt="ddd">
+    <img src="/Capture.PNG" alt="ddd">
     <h1>{title}</h1>
- </div>
- <style>
+</div>
+
+<style>
     .title{
         display: flex;
         
@@ -17,4 +19,4 @@
     .title h1{
         margin-left: 10px;
     }
- </style>
+</style>
